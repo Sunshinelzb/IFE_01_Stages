@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-15 12:12:35
+ * @version $Id$
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+.wrap, .left-team, .team-logo, .main-contain, .right-personal, .personal-logo {
+    border: 1px solid #999;
+}
+.wrap {
+    margin: 20px 50px;
+    background: #eee;
+    padding: 20px;
+}
+.left-team {
+    float: left;
+    width: 200px;
+    padding: 15px;
+    background: #fff;
+}
+.team-logo {
+    float: left;
+    width: 100px;
+    height: 105px;
+}
+.team-logo img {
+    width: 100px;
+    height: 105px;
+}
+.team-name {
+    float: left;
+    text-align: center;
+    margin-left: 8px;
+    width: 90px;
+    margin-top: 30%;
+    transform: translateY(-50%);
+    font-weight: bold;
+}
+.main-contain {
+    margin-left: 280px;
+    margin-right: 160px;
+    width: auto;
+    height: auto;
+    background: #fff;
+    padding: 20px;
+}
+.main-contain p {
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 25px;
+    word-break: wrap;
+}
+.right-personal {
+    float: right;
+    width: 120px;
+    background: #fff;
+}
+.personal-logo {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.personal-logo img {
+    width: 80px;
+    height: 80px;
+}
