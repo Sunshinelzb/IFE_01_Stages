@@ -12,6 +12,20 @@
 }
 body {
     font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    overflow: hidden;
+    zoom: 1;
+    *zoom: 1;
 }
 .wrap, .left-team, .team-logo, .main-contain, .right-personal, .personal-logo {
     border: 1px solid #999;
@@ -20,17 +34,20 @@ body {
     margin: 20px 50px;
     background: #eee;
     padding: 20px;
+    min-width: 500px;
+    position: relative;
 }
 .left-team {
     float: left;
     width: 200px;
-    padding: 15px;
+    padding: 20px;
     background: #fff;
 }
 .team-logo {
     float: left;
     width: 100px;
     height: 105px;
+    display: inline-block;
 }
 .team-logo img {
     width: 100px;
@@ -58,7 +75,7 @@ body {
     letter-spacing: 2px;
     font-size: 15px;
     line-height: 25px;
-    word-break: wrap;
+    word-break: break-all;
 }
 .right-personal {
     float: right;
