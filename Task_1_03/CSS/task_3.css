@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 
 /**
  *
@@ -11,32 +11,38 @@
     padding: 0;
 }
 body {
-    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    font-family: 'Arial', 'Microsoft YaHei', '黑体', '宋体', sans-serif;
     list-style: none;
     text-decoration: none;
 }
+
+/* 清除浮动 */
 .clearfix:after {
-    content: " ";
     display: block;
-    height: 0;
-    clear: both;
     visibility: hidden;
+    clear: both;
+    height: 0;
+    content: ' ';
 }
 .clearfix {
     overflow: hidden;
     zoom: 1;
     *zoom: 1;
 }
+
+/* 添加边框 */
 .wrap, .left-team, .team-logo, .main-contain, .right-personal, .personal-logo {
     border: 1px solid #999;
 }
 .wrap {
-    margin: 20px 50px;
-    background: #eee;
-    padding: 20px;
-    min-width: 500px;
     position: relative;
+    min-width: 500px;
+    margin: 20px 50px;
+    padding: 20px;
+    background: #eee;
 }
+
+/* 左侧部分 */
 .left-team {
     float: left;
     width: 200px;
@@ -44,51 +50,55 @@ body {
     background: #fff;
 }
 .team-logo {
+    display: inline-block;
     float: left;
     width: 100px;
     height: 105px;
-    display: inline-block;
 }
 .team-logo img {
     width: 100px;
     height: 105px;
 }
 .team-name {
+    font-weight: bold;
     float: left;
-    text-align: center;
-    margin-left: 8px;
     width: 90px;
     margin-top: 30%;
+    margin-left: 8px;
     transform: translateY(-50%);
-    font-weight: bold;
+    text-align: center;
 }
+
+/* 主要内容 */
 .main-contain {
-    margin-left: 280px;
-    margin-right: 160px;
     width: auto;
     height: auto;
-    background: #fff;
+    margin-right: 160px;
+    margin-left: 280px;
     padding: 20px;
+    background: #fff;
 }
 .main-contain p {
-    margin-top: 20px;
-    letter-spacing: 2px;
     font-size: 15px;
     line-height: 25px;
+    margin-top: 20px;
+    letter-spacing: 2px;
     word-break: break-all;
 }
+
+/* 右侧部分 */
 .right-personal {
     float: right;
     width: 120px;
     background: #fff;
 }
 .personal-logo {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
     width: 80px;
     height: 80px;
     margin: 20px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 .personal-logo img {
     width: 80px;
