@@ -14,10 +14,10 @@
 
 任务目的
 ----
-* 使用 HTML 与 CSS 实现类似 (BootStrap 的响应式 12 栏网格布局)[http://v4-alpha.getbootstrap.com/layout/grid/]，根据屏幕宽度，元素占的栏数不同。
+* 使用 HTML 与 CSS 实现类似 [BootStrap 的响应式 12 栏网格布局](http://v4-alpha.getbootstrap.com/layout/grid/)，根据屏幕宽度，元素占的栏数不同。
 任务描述
 
-* 需要实现如 (效果图)[http://7xrp04.com1.z0.glb.clouddn.com/task_1_8_1.png] 所示，调整浏览器宽度查看响应式效果，效果图中的红色的文字是说明，不需要写在 HTML 中。
+* 需要实现如 [效果图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_8_1.png) 所示，调整浏览器宽度查看响应式效果，效果图中的红色的文字是说明，不需要写在 HTML 中。
 
 任务注意事项
 ------
@@ -34,10 +34,10 @@
 在线学习参考资料
 -----
 
-* (BootStrap 官网)[http://getbootstrap.com/]：如果你没用过的话，至少了解一下它是做什么的
-*( Bootstrap grid examples)[https://getbootstrap.com/examples/grid/]：改变浏览器宽度，查看不同类名元素的表现，理解网格系统的作用。然后，通过“审查元素”查看对应 CSS，思考这一系统是如何实现的
-* (BootStrap 带 offset 的网格系统)[http://getbootstrap.com/2.3.2/scaffolding.html#gridSystem]
-* (Creating Your Own CSS Grid System)[http://j4n.co/blog/Creating-your-own-css-grid-system]：你可以先自己想想怎么实现，没有思路的话看看别人的做法
+* [BootStrap 官网](http://getbootstrap.com/)：如果你没用过的话，至少了解一下它是做什么的
+*[Bootstrap grid examples](https://getbootstrap.com/examples/grid/)：改变浏览器宽度，查看不同类名元素的表现，理解网格系统的作用。然后，通过“审查元素”查看对应 CSS，思考这一系统是如何实现的
+* [BootStrap 带 offset 的网格系统](http://getbootstrap.com/2.3.2/scaffolding.html#gridSystem)
+* [Creating Your Own CSS Grid System](http://j4n.co/blog/Creating-your-own-css-grid-system)：你可以先自己想想怎么实现，没有思路的话看看别人的做法
 
 任务地址
 ----
