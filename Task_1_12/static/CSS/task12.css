@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-26 21:16:13
+ * @version $Id$
+ */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.42857;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Microsoft Yahei UI', 'Microsoft Yahei';
+    padding: 20px;
+    background-color: #ccc;
+}
+.table-demo {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #7a7;
+    width: 300px;
+}
+.table-demo th {
+    background: #000;
+    color: #fff;
+}
+.table-demo th, tr, td {
+    text-align: center;
+    border: 1px solid #fff;
+    height: 40px;
+}
+.table-demo tr:nth-child(1), .table-demo tr:nth-child(2), .table-demo tr:nth-child(3) {
+    color: #f00;
+}
+.table-demo tr:nth-child(even) {
+    background: #ccc;
+}
+.table-demo tr:nth-child(odd) {
+    background: #fff;
+}
+.form-input {
+    margin-top: 20px;
+}
+.form-input .flexo {
+    width: 150px;
+    height: 30px;
+    transition: width .5s ease-in;
+}
+.form-input .flexo:focus {
+    width: 300px;
+}
+.banner {
+    width: 400px;
+    height: 150px;
+    margin: 50px 0 0 20px;
+    position: relative;
+    overflow: hidden;
+}
+.green, .blue, .red {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.green {
+    background: #33ff88;
+}
+.blue {
+    background: #3388ff;
+}
+.red {
+    background: #ff33ff;
+}
+nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    font-size: 0;
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    font-size: 20px;
+    margin-left: 2px;
+}
+:target {
+    z-index: 4;
+    animation-delay: 1s;
+    -webkit-animation: change .5s ease-in-out;
+    -o-animation: change .5s ease-in-out;
+    animation: change .5s ease-in-out;
+}
+@keyframes change {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
